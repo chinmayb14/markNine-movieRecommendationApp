@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin-top: 0;
+  --primary-color: #fff3b0;
+  --secondary-color: #ead5e6;
+  ---text-color: #2a2d34;
+  background-color: var(--secondary-color);
+}
+
+.buttonStyle {
+  color: var(---text-color);
+  background-color: #99ddc8;
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+.container {
+  padding: 1rem 1rem;
+}
+.header {
+  color: var(---text-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 80%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.container-center {
+  max-width: 600px;
+  color: var(---text-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(---text-color);
+  border-radius: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
